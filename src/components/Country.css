@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@200&family=Crimson+Text&family=Oswald&display=swap");
+
+.flex-display{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    /* width:95%; */
+}
+
+.country-card{
+    margin: 10px;
+    border: 1px solid black;
+    width:20%;
+    border-radius: 10px;
+}
+
+.country-padding{
+    padding: 10px;
+}
+
+
+.card-name-style{
+    font-family: "Arima Madurai";
+}
+
+.btn{
+    border: 1px solid cornsilk;
+    padding: 5px;
+}
+
+.link-style{
+    text-decoration: none;
+}
+
+.head-style{
+    color: rgb(21, 124, 241);
+}
+
+.details-style{
+    font-size: 18px;
+}
+
+table{
+    width: 50%; 
+    text-align: left;
+}
+
+th{
+    font-family: "Arima Madurai";
+    font-weight: bold;
+}
+
+#country {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+  }
+  
+  #country td, #country th, tr{
+ 
+    font-family: "Arima Madurai";
+    padding: 8px;
+    width:50%
+  }
+
+  td{
+    border: 1px solid #ddd;
+  }
+  
+  #country tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #country tr:hover {background-color: #ddd;}
